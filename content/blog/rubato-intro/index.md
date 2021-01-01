@@ -8,6 +8,8 @@ description: The musical instrument industry is incredibly niche and the most
 
 **test edit from Netlify CMS**
 
+**test edit user2 from Netlify CMS**
+
 - - -
 
 This is my first post on my new fake blog! How exciting!
