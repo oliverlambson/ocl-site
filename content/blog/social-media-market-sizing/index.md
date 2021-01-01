@@ -1,7 +1,11 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: Market sizing with social media
+date: "2021-01-01T11:47:00.000Z"
+description: How do you size the hyper-niche market of electric guitars made of carbon fibre when there's no traditional data available? Get creative by turning to Instagram and YouTube!
+---
+
+> This is filler text below from the [Gatsby Starter Blog](https://github.com/gatsbyjs/gatsby-starter-blog) this site is based on. I'll get to writing the article eventually.
+
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

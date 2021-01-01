@@ -1,7 +1,11 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Why I make carbon fibre guitars
+date: "2021-01-01T11:43:00.000Z"
+description: "The musical instrument industry is incredibly niche and the most popular electric guitar models are designs from the 1950's. Why bother?"
+---
+
+> This is filler text below from the [Gatsby Starter Blog](https://github.com/gatsbyjs/gatsby-starter-blog) this site is based on. I'll get to writing the article eventually.
+
 ---
 
 This is my first post on my new fake blog! How exciting!

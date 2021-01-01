@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Oliver Lambson Site`,
+    title: `Oliver Lambson`,
     author: {
       name: `Oliver Lambson`,
-      summary: `London-based South African building carbon fibre guitars and interested in manufacturing and management.`,
+      summary: `a London-based South African building carbon fibre guitars and interested in manufacturing and management.`,
     },
     description: `Site for Oliver Lambson.`,
     siteUrl: `https://www.oliverlambson.com/`,
     social: {
       twitter: `oliverlambson`,
+      linkedin: `oliverlambson`
     },
   },
   plugins: [
@@ -60,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Oliver Lambson`,
+        short_name: `O Lambson`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
