@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Oliver Lambson Site`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Oliver Lambson`,
+      summary: `London-based South African building carbon fibre guitars and interested in manufacturing and management.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Site for Oliver Lambson.`,
+    siteUrl: `https://www.oliverlambson.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `oliverlambson`,
     },
   },
   plugins: [
