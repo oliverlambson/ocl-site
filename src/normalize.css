@@ -341,3 +341,8 @@ summary {
 [hidden] {
   display: none;
 }
+
+figure {
+  margin-block: 0;
+  margin-inline: 0;
+}
