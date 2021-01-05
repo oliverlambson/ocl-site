@@ -1,4 +1,4 @@
-# Oliver Lambson: personal website
+# Oliver Lambson: Personal website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/516af488-f3fa-4492-b18c-81055141835e/deploy-status)](https://app.netlify.com/sites/oliverlambson/deploys)
 
