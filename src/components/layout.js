@@ -28,11 +28,11 @@ const Layout = ({ location, title, children }) => {
         © Oliver Lambson {new Date().getFullYear()}
         <br />
         Built with ♥ using{" "}
-        <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">
+        <a href="https://www.gatsbyjs.com" target="_blank" rel="noopener noreferrer">
           Gatsby
         </a>
         ,{" "}
-        <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
           Netlify
         </a>{" "}
         and other OSS.
