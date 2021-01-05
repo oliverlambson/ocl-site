@@ -55,9 +55,22 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://linkedin.com/in/${social?.linkedin || ``}`} target="_blank" rel="noreferrer">
-            You can check him out on LinkedIn
+          <a
+            href={`https://linkedin.com/in/${social?.linkedin || ``}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check him out on LinkedIn
           </a>
+          , or{" "}
+          <a
+            href="https://www.rubato.guitars"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            check out Rubato Guitars
+          </a>
+          .
         </p>
       )}
     </div>
