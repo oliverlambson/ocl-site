@@ -7,6 +7,8 @@ public_folder: /img
 
 site_url: https://oliverlambson.com
 
+local_backend: true
+
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -17,7 +19,7 @@ collections:
     public_folder: ''
     path: '{{title}}/index'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }

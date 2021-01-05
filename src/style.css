@@ -332,9 +332,15 @@ a:focus {
   }
 }
 
+/* Figure captions */
 .gatsby-resp-image-figcaption {
   color: var(--color-text-light);
   font-size: var(--fontSize-0);
   padding-top: var(--spacing-1);
   font-style: italic;
+}
+
+/* Modifications for Netlify CMS previews */
+img {
+  max-width: 100%;
 }
