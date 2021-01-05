@@ -23,7 +23,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
   return (
     <BlogPostTemplate
       title={entry.getIn(["data", "title"])}
-      date=""
+      date={entry.getIn(["data", "date"]).toISOString().split('T')[0]}
       description=""
       content={widgetFor("body")}
     />
