@@ -26,7 +26,7 @@ const Layout = ({ location, title, children }) => {
         <header className="global-header">{header}</header>
         <main>{children}</main>
       </div>
-      <footer className="global-footer">
+      {/* <footer className="global-footer">
         © Oliver Lambson {new Date().getFullYear()}
         <br />
         Built with ♥ using{" "}
@@ -46,7 +46,7 @@ const Layout = ({ location, title, children }) => {
           Netlify
         </a>{" "}
         and other OSS.
-      </footer>
+      </footer> */}
     </div>
   )
 }
