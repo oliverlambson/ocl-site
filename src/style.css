@@ -244,14 +244,28 @@ a:focus {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
   margin-bottom: var(--spacing-20);
 }
 
+.global-temp {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .global-header {
   margin-bottom: var(--spacing-12);
+}
+
+.global-footer {
+  flex-grow: 0;
 }
 
 .main-heading {
