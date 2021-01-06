@@ -22,21 +22,31 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
+      <div className="global-temp">
+        <header className="global-header">{header}</header>
+        <main>{children}</main>
+      </div>
+      {/* <footer className="global-footer">
         © Oliver Lambson {new Date().getFullYear()}
         <br />
         Built with ♥ using{" "}
-        <a href="https://www.gatsbyjs.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.gatsbyjs.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Gatsby
         </a>
         ,{" "}
-        <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Netlify
         </a>{" "}
         and other OSS.
-      </footer>
+      </footer> */}
     </div>
   )
 }

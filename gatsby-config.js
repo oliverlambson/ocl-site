@@ -3,7 +3,7 @@ module.exports = {
     title: `Oliver Lambson`,
     author: {
       name: `Oliver Lambson`,
-      summary: `a London-based South African building carbon fibre guitars who is interested in manufacturing and management.`,
+      summary: `is a London-based South African building carbon fibre guitars who is interested in manufacturing and management.`,
     },
     description: `Site for Oliver Lambson.`,
     siteUrl: `https://www.oliverlambson.com/`,
@@ -13,13 +13,13 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog`,
+    //     name: `blog`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
